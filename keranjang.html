@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Keranjang - NOVELIMA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="sidebar">
+    <h2>NOVELIMA</h2>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="katalog.html">Katalog</a>
+    <a class="active" href="keranjang.html">Keranjang</a>
+    <a href="member.html">Member</a>
+    <a href="biodata.html">Biodata</a>
+</div>
+
+<div class="content">
+    <h1>Keranjang Belanja</h1>
+
+    <div id="keranjangList"></div>
+
+    <h2>Total: <span id="totalHarga"></span></h2>
+    <button onclick="checkout()">Checkout</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
