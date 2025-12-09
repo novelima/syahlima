@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard - NOVELIMA</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="sidebar">
+    <h2>NOVELIMA</h2>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="katalog.html">Katalog</a>
+    <a href="keranjang.html">Keranjang</a>
+    <a href="member.html">Member</a>
+    <a href="biodata.html">Biodata</a>
+</div>
+
+<div class="content">
+    <h1>Dashboard</h1>
+
+    <div class="cards">
+        <div class="card">Total Pendapatan<br><span id="pendapatan">Rp 0</span></div>
+        <div class="card">Total Transaksi<br><span id="transaksi">0</span></div>
+        <div class="card">Jumlah Produk<br><span id="jmlProduk">0</span></div>
+    </div>
+
+    <h2>Grafik Penjualan</h2>
+    <canvas id="grafikPenjualan"></canvas>
+
+    <h2>Tren Penjualan</h2>
+    <canvas id="grafikBar"></canvas>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
